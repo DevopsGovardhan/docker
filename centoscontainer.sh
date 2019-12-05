@@ -1,4 +1,4 @@
-docker pull centos
+#docker pull centos
 docker run -itd --name myserver  docker.io/centos /bin/bash
 docker ps
 docker ps -a
